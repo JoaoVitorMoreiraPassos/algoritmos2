@@ -1,0 +1,16 @@
+main(inteiro quantidade_de_parametros, char parametros){
+    char: nome_da_entrada, nome_da_saida
+    nome_da_entrada = parametros[1]
+    nome_da_saida = parametros[2]
+
+    inteiro: numeros_pares[1000], numeros_impares[1000]
+    inteiro: tamanho_dos_pares, tamanho_dos_impares
+
+    importaValores(nome_da_entrada,numeros_pares, numeros_impares, tamanho_dos_pares, tamanho_dos_impares)
+
+    ordenaValores(numeros_pares,tamanho_dos_pares)
+    ordenaValores(numeros_impares, tamanho_dos_impares)
+
+    exportaValores(nome_da_saida,numeros_pares, numeros_impares, tamanho_dos_pares, tamanho_dos_impares)
+
+}

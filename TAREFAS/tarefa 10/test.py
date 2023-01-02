@@ -1,0 +1,7 @@
+a = ("joao vitor")
+a = list(a)
+print(a)
+a = "".join(a)
+print(a)
+a = list(a)
+a.count(4)

@@ -1,0 +1,7 @@
+numeros utilizados: 871973, 995471
+
+numero de iterações(trivial): 871974
+
+numero de iterações(euclides): 13
+
+mdc: 1
