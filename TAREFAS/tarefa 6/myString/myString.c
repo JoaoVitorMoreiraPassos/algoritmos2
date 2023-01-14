@@ -9,24 +9,6 @@ char *strcpy(char *s1, const char *s2){
         t ++;
     }
     s1[t] = '\0';
-    // while (s1[t1] != 0)
-    // {
-    //     t1 ++;
-    // }
-    // int t2 = 0;
-    // while (s2[t2] != '\0')
-    // {
-    //     s1[t2] = s2[t2];
-    //     t2 ++;
-    // }
-    // int c;
-    // if(t1 > t2){
-    //     for (c = t2; c < t1; c ++){
-    //         s1[c] = '\0';
-    //     }
-    // }
-    // s1[t2] = '\0';
-    // return s1;
 }
 
 
